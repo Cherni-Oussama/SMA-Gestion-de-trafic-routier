@@ -1,1 +1,6 @@
 http://Cherni-Oussama:7778/acc
+
+// communication between agents living on different platforms, is based on modules called MTP (Message Transport Protocol). 
+Such modules are able to transmit ACL messages
+//MTP modules can be installed in whatever container and a container can have zero or more MTP modules installed in it. 
+By default JADE installs the HTTP MTP in a Main Container and no MTP on peripheral containers.
